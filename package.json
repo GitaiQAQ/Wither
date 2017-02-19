@@ -1,0 +1,20 @@
+{
+  "name": "wither",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gitai <i@gitai.me>",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-watch": "^4.3.11",
+    "pug": "^2.0.0-beta11",
+    "stylus-normalize": "^3.0.3"
+  }
+}

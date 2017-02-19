@@ -1,0 +1,40 @@
+.header
+  transition: all 1s
+  position: fixed
+  width: 100%
+  font-weight: 300
+  color: white
+  .header-content
+    transition: all 1s
+    max-width: 1200px
+    margin: 2em auto
+    .logo
+      font-size: 1.45em
+    .nome
+      padding-left: 10px
+    .menu
+      line-height: 2em;
+    ul
+      display: inline-block
+      padding: 0
+      margin: 0
+      li
+        display: inline-block
+        list-style: none
+        transition: all 1s
+        font-size: 1.5em;
+        padding-right: 1em;
+        &:last-child
+          padding-right: 0;
+
+
+.active
+  color: black
+  background-color: white;
+  .header-content
+    margin: 1em auto
+    ul
+      li
+        font-size: 1.2em;
+
+// 

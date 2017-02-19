@@ -1,0 +1,34 @@
+extends _partial/layout
+
+block head
+  link(href="css/main.css", rel="stylesheet")
+
+block header
+  .header-content
+    ul.left
+      li
+        a(href="#", title="title") 
+          span.logo.iconfont &#xe8f5;
+          span.nome Minecraft
+    ul.right.menu
+      li
+        a(href="#", title="intro") Intro
+      li
+        a(href="#", title="services") Services
+      li
+        a(href="#", title="about") About
+      li
+        a(href="#", title="contect") Contect
+block banner
+  .overlay
+    .intro
+      include _widget/minecraft
+      h1 PIXEL PERFECTION • DIGITAL • UI/UX DESIGN
+      h2 I am Federico Guzzardi, a digital creative focused on visual and web design.
+      .btns
+        bottom Join US
+
+block content
+  h1 Services
+  h1 About
+  h1 Contect
